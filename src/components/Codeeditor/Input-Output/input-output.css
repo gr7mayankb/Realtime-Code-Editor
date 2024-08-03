@@ -1,0 +1,16 @@
+.inp-out{
+    height: 100%;
+    width: 100%;
+    background-color: cyan;
+}
+
+.input{
+    height: 50%;
+    width: 100%;
+    background-color: wheat;
+}
+.output{
+    height: 50%;
+    width: 100%;
+    background-color: pink;
+}

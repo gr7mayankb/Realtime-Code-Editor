@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.app{
+    height: 99.7vh;
+    width: 1536px;
+}

@@ -1,0 +1,29 @@
+.codeeditor{
+    height: 84%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+}
+
+.main{
+    height: 100%;
+    width: 70%;
+}
+
+.user{
+    height: 100%;
+    width: 30%;
+}
+
+.toolbox{
+    height: 8%;
+    width: 100%;
+    background-color: yellow;
+
+}
+.code{
+    height: 92%;
+    width: 100%;
+    background-color: blue;
+
+}
