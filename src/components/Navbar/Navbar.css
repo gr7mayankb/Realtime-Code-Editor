@@ -23,7 +23,10 @@
 }
 
 .nav-logo {
-  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  margin-right: 10px;
   height: 100%;
 }
 
@@ -42,4 +45,31 @@
   cursor: pointer;
   outline: none;
   padding: 0;
+}
+
+.nav-stroke-double {
+  position: relative;
+  background: transparent;
+  z-index: 0;
+  color: #1f2023;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nav-stroke-double:before {
+  content: attr(title);
+  position: absolute;
+  -webkit-text-stroke: 0.11em rgb(176, 172, 210);
+  left: 0;
+  z-index: -1;
+}
+
+.nav-stroke-double:after {
+  content: attr(title);
+  position: absolute;
+  -webkit-text-stroke: 0.25em black;
+  left: 0;
+  z-index: -2;
+  z-index: -2;
 }

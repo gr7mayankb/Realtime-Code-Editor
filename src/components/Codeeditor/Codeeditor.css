@@ -3,7 +3,7 @@
   width: 100%;
   background-color: gray;
   display: flex;
-  border: 0.1px solid white;
+  border: 0.01px solid white;
 }
 
 .main {
@@ -41,4 +41,9 @@
   padding: 4px 15px;
   margin: 0 2px 12px 12px;
   cursor: pointer;
+}
+
+.filename {
+  color: white;
+  font-size: 20px;
 }

@@ -7,20 +7,14 @@ import Inputoutput from "./Input-Output/Inputoutput.jsx";
 const Codeeditor = () => {
   return (
     <div className="codeeditor">
+
       <div className="main">
+
         <div className="toolbox">
           <div className="filename">
             main.lang
           </div>
-          <div className="toolbox-btns">
-            <button className="toolbox-btn">
-              Share
-            </button>
-            <button className="toolbox-btn">
-              Clear
-            </button>
-            <button className="toolbox-btn">Run</button>
-          </div>
+
         </div>
         <div className="code"></div>
       </div>
