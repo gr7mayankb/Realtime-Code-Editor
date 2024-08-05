@@ -1,16 +1,18 @@
-.inp-out{
-    height: 100%;
-    width: 100%;
-    background-color: cyan;
+.inp-out {
+  height: 100%;
+  width: 100%;
+  background-color: #1c2130;
 }
 
-.input{
-    height: 50%;
-    width: 100%;
-    background-color: wheat;
+.input {
+  height: 50%;
+  width: 100%;
+  background-color: #1c2130;
+  border: 0.1px solid white;
 }
-.output{
-    height: 50%;
-    width: 100%;
-    background-color: pink;
+.output {
+  height: 50%;
+  width: 100%;
+  background-color: #1c2130;
+  border: 0.1px solid white;
 }
