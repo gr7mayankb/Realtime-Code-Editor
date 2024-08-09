@@ -19,6 +19,9 @@
 .toolbox {
   height: 8%;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #393b3f;
   border: 0.01px solid white;
 }
@@ -44,6 +47,17 @@
 }
 
 .filename {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 20px;
+  width: 8%;
+  margin-left: 5px;
+  height: 100%;
+  background-color: #1c2130;
+}
+.language {
+  height: 100%;
+  position: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
